@@ -7,9 +7,9 @@ export default function About(props) {
       <div className="container" style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "#061f38" : "white"}}>
         <h1 className='my-4'>About Us</h1>
         <div className="accordion" id="accordionExample" >
-          <div style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "#061f38" : "white"}} className="accordion-item">
+          <div style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "rgb(7 43 78)" : "white"}} className="accordion-item">
             <h2 className="accordion-header">
-              <button style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "#061f38" : "white"}} className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "rgb(7 43 78)" : "white"}} className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 Name of the developer
               </button>
             </h2>
@@ -19,9 +19,9 @@ export default function About(props) {
               </div>
             </div>
           </div>
-          <div style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "#061f38" : "white"}} className="accordion-item">
+          <div style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "rgb(7 43 78)" : "white"}} className="accordion-item">
             <h2 className="accordion-header">
-              <button style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "#061f38" : "white"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <button style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "rgb(7 43 78)" : "white"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Add of the developer
               </button>
             </h2>
@@ -31,9 +31,9 @@ export default function About(props) {
               </div>
             </div>
           </div>
-          <div style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "#061f38" : "white"}} className="accordion-item">
+          <div style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "rgb(7 43 78)" : "white"}} className="accordion-item">
             <h2 className="accordion-header">
-              <button style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "#061f38" : "white"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <button style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "rgb(7 43 78)" : "white"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Contacts of the developer.
               </button>
             </h2>

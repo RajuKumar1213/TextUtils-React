@@ -1,15 +1,14 @@
 import React, { useState } from "react";
-// import { BrowserRouter as Router,Switch, Route, Routes } from 'react-router-dom'
 import Alert from "./Alert";
-// import About from "./About";
+import About from "./About";
 import Navbar from "./Navbar";
 import TextForm from "./TextForm";
 
-// import {
-//     BrowserRouter as Router,
-//     Switch,
-//     Route,
-// } from "react-router-dom";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+} from "react-router-dom";
 
 function App() {
 
@@ -44,24 +43,24 @@ function App() {
     }
 
     return (
-        // <Router>
+        <Router>
             <>
                 <Navbar navTitle="TextUtiles" mailUs="Email Us" mode={mode} toggleMode={toggleMode} />
                 <Alert alert={alert} />
 
-                {/* <Switch>
+                <Switch>
                     <Route exact path="/about">
                         <About mode={mode}/>
                     </Route>
-                    <Route exact path="/"> */}
+                    <Route exact path="/">
                         <TextForm heading="Enter the text to analyze below" mode={mode} showAlert={showAlert} />
-                    {/* </Route>
-                </Switch> */}
+                    </Route>
+                </Switch>
 
-                {/* <Navbar  />  // if we not use our custorm props then default will be appllied  */}
-                {/* <About /> */}
+                 {/* <Navbar  />  // if we not use our custorm props then default will be appllied  */}
+                 {/* <About /> */}
             </>
-        // </Router>
+        </Router>
     );
 }
 
