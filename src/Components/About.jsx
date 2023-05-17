@@ -5,7 +5,7 @@ export default function About(props) {
   return (
     <div>
       <div className="container" style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "#061f38" : "white"}}>
-        <h1 className='my-4'>About Us</h1>
+        <h1 className='my-4'>About the Developer</h1>
         <div className="accordion" id="accordionExample" >
           <div style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "rgb(7 43 78)" : "white"}} className="accordion-item">
             <h2 className="accordion-header">
@@ -22,12 +22,12 @@ export default function About(props) {
           <div style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "rgb(7 43 78)" : "white"}} className="accordion-item">
             <h2 className="accordion-header">
               <button style={{color : props.mode==="dark" ? "white" : "black", backgroundColor : props.mode === "dark" ? "rgb(7 43 78)" : "white"}} className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Add of the developer
+                Address of the developer
               </button>
             </h2>
             <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div className="accordion-body">
-                <strong>Currently live in Silli , Ranchi.</strong> And the permanent add of the developer is Rajhara, pandeypura , patan , palamu , Jharkhand.
+                <strong>Currently live in Silli , Ranchi.</strong> And the permanent address of the developer is Rajhara, pandeypura , patan , palamu , Jharkhand.
               </div>
             </div>
           </div>
